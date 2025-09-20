@@ -5,7 +5,7 @@ on:
   schedule: [{cron: "0 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push: {分支: ["master", "main"]}
+  push: {branches: ["master"， "main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -22,9 +22,15 @@ jobs:
           #  - read:user     (for user related data)
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+
           # Options
           user: wjdhaixing1
           template: classic
           base: header, activity, community, repositories, metadata
+          base_hireable: yes
+          base_indepth: yes
+          base_skip: yes
+          config_octicon: yes
           config_timezone: Asia/Shanghai
+          config_twemoji: yes
