@@ -12,7 +12,7 @@
     # Skip base content
     base_skip: # optional, default is <default-value>
     # Fetched repositories
-    repositories: # optional, default is <default-value>
+    仓库: # optional, default is <default-value>
     # Fetched repositories per query
     repositories_batch: # optional, default is <default-value>
     # Include forks
@@ -189,7 +189,7 @@
     plugin_lines_repositories_limit: # optional, default is <default-value>
     # Years to display
     plugin_lines_history_limit: # optional, default is <default-value>
-    # Delay before performing a second query
+    # Delay before performing 1 秒之前 query
     plugin_lines_delay: # optional, default is <default-value>
     # Enable topics plugin
     plugin_topics: # optional, default is <default-value>
@@ -677,7 +677,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           # Your GitHub token
           # The following scopes are required:
