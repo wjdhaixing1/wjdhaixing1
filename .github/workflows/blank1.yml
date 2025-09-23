@@ -49,11 +49,4 @@ jobs:
           plugin_projects: yes
           plugin_projects_descriptions: yes
           plugin_projects_limit: 2
-          plugin_steam: yes
-          plugin_steam_achievements_limit: 2
-          plugin_steam_games_limit: 1
-          plugin_steam_playtime_threshold: 2
-          plugin_steam_recent_games_limit: 1
-          plugin_steam_sections: player, most-played, recently-played
-          plugin_steam_user: 76561198817429863
           repositories_forks: yes
