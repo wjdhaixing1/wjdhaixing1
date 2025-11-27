@@ -9,3 +9,4 @@
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=wjdhaixing1" />
 </a>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=wjdhaixing1&theme=gruvbox&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
